@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "love" ;
+    src: url(love\ larry\ ttf.ttf) format(truetype);
+}
+
+
+
+
+/*font02*/
+
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1{
+    font-family: "love", Times, serif;
+    font-size: 3em;
+    font-weight: normal;
+}

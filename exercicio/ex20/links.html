@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+
+        /* 
+            # = id
+            . = class
+            : = pseudo-class
+            :: = pseudo-element
+            > = children
+        */
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a{
+            color: red;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: darkred;
+        }
+
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+        
+        a:active{
+            color: rgb(53, 7, 7)
+        }
+
+        a::after{
+            content: ' [link]';
+            font-weight: normal;
+            color: black;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>pensonalizando links</h1>
+    <ul>
+        <li><a href="https://www.cssbuy.com/user.php?action=loginandreg" target="blank">cssbuy</a></li>
+        <li><a href="https://www.youtube.com/channel/UCtrJx9jk9vt4Y55b7Dt_mIw" target="_blank">canal do Yt</a></li>
+        <li><a href="https://www.cursoemvideo.com/curso/curso-html5-e-css3-modulo-2-de-5-40-horas/aulas/modulo-2-2/modulos/capitulo-15-aula-04-pseudo-elementos-em-css/"target="_blank">Site</a></li>
+    </ul>
+</body>
+</html>
