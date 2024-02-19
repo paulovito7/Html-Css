@@ -18,6 +18,7 @@ header {
 header > h1 {
     padding-top: 25px;
     font-variant: small-caps;
+    font-size: 4vw;
 }
 
 header > p {
@@ -38,7 +39,12 @@ section {
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
-    padding-left: 15px;
+    padding-left: 25px;
+    font-size: 2vw;
+}
+
+section > p {
+    padding-bottom: 1.5em;
 }
 
 section.normal {
@@ -48,12 +54,24 @@ section.normal {
 
 section.imagem {
     color: white;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 section.imagem > p {
-    width: 300px;
     background-color: rgba(0, 0, 0, 0.411);
+    width: 500px;
+    padding-left: 2.5px ;
 }
+
+section#img01 {
+    background-image:url(imagens/background001.jpg) ;
+    background-position: center center;
+}
+
+section#img02 {
+    background-image:url(imagens/background002.jpg) ;
+ }
 
 footer {
     background-color: black;
